@@ -1,209 +1,46 @@
-## 🧩 ReVanced Patches
+<div align="center"> 
+<picture>
+    <source
+      width="512px"
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/MorpheApp/.github/refs/heads/main/profile/assets/morphe-wordmark/morphe_wordmark_dark.svg"
+    />
+    <img 
+      width="512px"
+      src="https://raw.githubusercontent.com/MorpheApp/.github/refs/heads/main/profile/assets/morphe-wordmark/morphe_wordmark_light.svg"
+    />
+</picture>
 
-ReVanced Extended Patches. 
+[![Website badge](https://img.shields.io/badge/Website-gray.svg?logo=data:image/svg%2bxml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gQ29weXJpZ2h0IDIwMjUgTW9ycGhlLiBUaGlzIGlzIGNvcHlyaWdodGVkIGNvbnRlbnQsIGFuZCBub3QgbGljZW5zZWQgdW5kZXIgb3BlbiBzb3VyY2UgdGVybXMuCiAgICAgU2VlIGh0dHBzOi8vZ2l0aHViLmNvbS9Nb3JwaGVBcHAvbW9ycGhlLWJyYW5kaW5nIC0tPgoKPHN2ZwogICB3aWR0aD0iNTEyIgogICBoZWlnaHQ9IjUxMiIKICAgdmlld0JveD0iMCAwIDUxMiA1MTIiCiAgIHZlcnNpb249IjEuMSIKICAgaWQ9InN2ZzIiCiAgIHNvZGlwb2RpOmRvY25hbWU9Im1vcnBoZV9sb2dvX2xpZ2h0LnN2ZyIKICAgaW5rc2NhcGU6dmVyc2lvbj0iMS40LjIgKGViZjBlOTQwZDAsIDIwMjUtMDUtMDgpIgogICB4bWxuczppbmtzY2FwZT0iaHR0cDovL3d3dy5pbmtzY2FwZS5vcmcvbmFtZXNwYWNlcy9pbmtzY2FwZSIKICAgeG1sbnM6c29kaXBvZGk9Imh0dHA6Ly9zb2RpcG9kaS5zb3VyY2Vmb3JnZS5uZXQvRFREL3NvZGlwb2RpLTAuZHRkIgogICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxzb2RpcG9kaTpuYW1lZHZpZXcKICAgICBpZD0ibmFtZWR2aWV3MiIKICAgICBwYWdlY29sb3I9IiNmZmZmZmYiCiAgICAgYm9yZGVyY29sb3I9IiMwMDAwMDAiCiAgICAgYm9yZGVyb3BhY2l0eT0iMC4yNSIKICAgICBpbmtzY2FwZTpzaG93cGFnZXNoYWRvdz0iMiIKICAgICBpbmtzY2FwZTpwYWdlb3BhY2l0eT0iMC4wIgogICAgIGlua3NjYXBlOnBhZ2VjaGVja2VyYm9hcmQ9IjAiCiAgICAgaW5rc2NhcGU6ZGVza2NvbG9yPSIjZDFkMWQxIgogICAgIGlua3NjYXBlOnpvb209IjEuMTU0Mjk2OSIKICAgICBpbmtzY2FwZTpjeD0iMjU2IgogICAgIGlua3NjYXBlOmN5PSIyNTYiCiAgICAgaW5rc2NhcGU6d2luZG93LXdpZHRoPSIxNDQwIgogICAgIGlua3NjYXBlOndpbmRvdy1oZWlnaHQ9IjgzNiIKICAgICBpbmtzY2FwZTp3aW5kb3cteD0iMCIKICAgICBpbmtzY2FwZTp3aW5kb3cteT0iMCIKICAgICBpbmtzY2FwZTp3aW5kb3ctbWF4aW1pemVkPSIxIgogICAgIGlua3NjYXBlOmN1cnJlbnQtbGF5ZXI9InN2ZzIiPgogICAgPGlua3NjYXBlOnBhZ2UKICAgICAgIHg9IjAiCiAgICAgICB5PSIwIgogICAgICAgd2lkdGg9IjUxMiIKICAgICAgIGhlaWdodD0iNTEyIgogICAgICAgaWQ9InBhZ2UyIgogICAgICAgbWFyZ2luPSIwIgogICAgICAgYmxlZWQ9IjAiIC8+CiAgPC9zb2RpcG9kaTpuYW1lZHZpZXc+CiAgPGRlZnMKICAgICBpZD0iZGVmczIiIC8+CiAgPCEtLSBMZXR0ZXIgLS0+CiAgPGcKICAgICBpZD0iTGV0dGVyIgogICAgIHN0eWxlPSJmaWxsOiNmZmZmZmY7ZmlsbC1vcGFjaXR5OjEiPgogICAgPHBhdGgKICAgICAgIGlkPSJMZWZ0IgogICAgICAgZD0ibSAxMjMsMTQwIGMgLTIxLDAgLTM5LDE3IC00MCwzOCB2IDE5MiBjIDEsMjEgMTksMzggNDAsMzggMjEsMCAzOSwtMTcgNDAsLTM4IFYgMTc4IGMgLTEsLTIxIC0xOSwtMzggLTQwLC0zOCB6IgogICAgICAgZmlsbD0iIzFFNUFBOCIKICAgICAgIHN0eWxlPSJmaWxsOiNmZmZmZmY7ZmlsbC1vcGFjaXR5OjEiIC8+CiAgICA8cGF0aAogICAgICAgaWQ9IlJpZ2h0IgogICAgICAgZD0ibSAzNDksMjg1IHYgODUgYyAxLDIxIDE5LDM4IDQwLDM4IDIxLDAgMzksLTE3IDQwLC0zOCBWIDE4MiBjIC0xMSwtMTQgLTc0LDYzIC04MCwxMDMgeiIKICAgICAgIGZpbGw9IiMwMEFGQUUiCiAgICAgICBzdHlsZT0iZmlsbDojZmZmZmZmO2ZpbGwtb3BhY2l0eToxIiAvPgogICAgPHBhdGgKICAgICAgIGlkPSJNaWRkbGUiCiAgICAgICBkPSJtIDEyNywxMDggYyAtMzQsMCAtNDQsMjUgLTQ0LDQwIHYgNTQgYyAzMCwtMzMgNzUsMjcgODAsMzMgMjgsMzIgNDQsODcgOTMsODkgNDgsLTIgNjcsLTU2IDkzLC04OSAwLDAgNDUsLTc0IDgwLC04MCAwLC0yOCAtMTEsLTQ3IC00NCwtNDcgLTM0LDAgLTU4LDUwIC03NSw3MiAtMTcsMjIgLTI1LDQ2IC01NCw0NiAtMjksMCAtMzgsLTI1IC01NCwtNDYgLTE3LC0yMiAtNDEsLTcyIC03NSwtNzIgeiIKICAgICAgIGZpbGw9InVybCgjbGluZWFyR3JhZGllbnQyKSIKICAgICAgIHN0eWxlPSJmaWxsOiNmZmZmZmY7ZmlsbC1vcGFjaXR5OjEiIC8+CiAgPC9nPgo8L3N2Zz4K&style=for-the-badge)](https://morphe.software) [![Documentation badge](https://img.shields.io/badge/Documentation-gray?style=for-the-badge&logo=github)](https://github.com/MorpheApp/morphe-documentation#readme) [![Subreddit badge](https://img.shields.io/badge/Reddit-gray?style=for-the-badge&logo=reddit&logoColor=white)](https://www.reddit.com/r/MorpheApp) [![X badge](https://img.shields.io/badge/X_-gray?style=for-the-badge&logo=x)](https://x.com/MorpheApp) [![Crowdin badge](https://img.shields.io/badge/Translations-gray?style=for-the-badge&logo=crowdin)](https://morphe.software/translate)
+<br>
+</div> 
 
-See the [wiki](https://github.com/pumzia/revanced-patches/wiki) for resources on patching, customization, and debugging.
+&nbsp;
+<p align="center">
+  <a href="https://morphe.software" title="Download Morphe">
+    <img src="https://raw.githubusercontent.com/MorpheApp/.github/refs/heads/main/profile/assets/download-morphe.svg" alt="Download Morphe" width="240"/>
+  </a>
+</p>
+&nbsp;
 
-## 📋 List of patches in this repository
+# 🧩 Patches
+Morphe Patches
 
-### [📦 `com.google.android.youtube`](https://play.google.com/store/apps/details?id=com.google.android.youtube)
-<details>
+## ❓ About
 
-| 💊 Patch | 📜 Description | 🏹 Target Version |
-|:--------:|:--------------:|:-----------------:|
-| `Alternative thumbnails` | Adds options to replace video thumbnails using the DeArrow API or image captures from the video. | 19.05.36 ~ 19.47.53 |
-| `Ambient mode control` | Adds options to disable Ambient mode and to bypass Ambient mode restrictions. | 19.05.36 ~ 19.47.53 |
-| `Bypass URL redirects` | Adds an option to bypass URL redirects and open the original URL directly. | 19.05.36 ~ 19.47.53 |
-| `Bypass image region restrictions` | Adds an option to use a different host for static images, so that images blocked in some countries can be received. | 19.05.36 ~ 19.47.53 |
-| `Change form factor` | Adds an option to change the UI appearance to a phone, tablet, or automotive device. | 19.05.36 ~ 19.47.53 |
-| `Change live ring click action` | Adds an option to open the channel instead of the live stream when clicking on the live ring. | 19.05.36 ~ 19.47.53 |
-| `Change player flyout menu toggles` | Adds an option to use text toggles instead of switch toggles within the additional settings menu. | 19.05.36 ~ 19.47.53 |
-| `Change share sheet` | Adds an option to change the in-app share sheet to the system share sheet. | 19.05.36 ~ 19.47.53 |
-| `Change start page` | Adds an option to set which page the app opens in instead of the homepage. | 19.05.36 ~ 19.47.53 |
-| `Custom Shorts action buttons` | Changes, at compile time, the icon of the action buttons of the Shorts player. | 19.05.36 ~ 19.47.53 |
-| `Custom branding icon for YouTube` | Changes the YouTube app icon to the icon specified in patch options. | 19.05.36 ~ 19.47.53 |
-| `Custom branding name for YouTube` | Changes the YouTube app name to the name specified in patch options. | 19.05.36 ~ 19.47.53 |
-| `Custom double tap length` | Adds Double-tap to seek values that are specified in patch options. | 19.05.36 ~ 19.47.53 |
-| `Custom header for YouTube` | Applies a custom header in the top left corner within the app. | 19.05.36 ~ 19.47.53 |
-| `Description components` | Adds options to hide and disable description components. | 19.05.36 ~ 19.47.53 |
-| `Disable QUIC protocol` | Adds an option to disable CronetEngine's QUIC protocol. | 19.05.36 ~ 19.47.53 |
-| `Disable forced auto audio tracks` | Adds an option to disable audio tracks from being automatically enabled. | 19.05.36 ~ 19.47.53 |
-| `Disable forced auto captions` | Adds an option to disable captions from being automatically enabled. | 19.05.36 ~ 19.47.53 |
-| `Disable haptic feedback` | Adds options to disable haptic feedback when swiping in the video player. | 19.05.36 ~ 19.47.53 |
-| `Disable layout updates` | Adds an option to disable layout updates by server. | 19.05.36 ~ 19.47.53 |
-| `Disable resuming Miniplayer on startup` | Adds an option to disable the Miniplayer 'Continue watching' from resuming on app startup. | 19.05.36 ~ 19.47.53 |
-| `Disable resuming Shorts on startup` | Adds an option to disable the Shorts player from resuming on app startup when Shorts were last being watched. | 19.05.36 ~ 19.47.53 |
-| `Disable splash animation` | Adds an option to disable the splash animation on app startup. | 19.05.36 ~ 19.47.53 |
-| `Enable OPUS codec` | Adds an option to enable the OPUS audio codec if the player response includes it. | 19.05.36 ~ 19.47.53 |
-| `Enable debug logging` | Adds an option for debugging and exporting RVX logs to the clipboard. | 19.05.36 ~ 19.47.53 |
-| `Enable gradient loading screen` | Adds an option to enable the gradient loading screen. | 19.05.36 ~ 19.47.53 |
-| `Force hide player buttons background` | Removes, at compile time, the dark background surrounding the video player controls. | 19.05.36 ~ 19.47.53 |
-| `Fullscreen components` | Adds options to hide or change components related to fullscreen. | 19.05.36 ~ 19.47.53 |
-| `GmsCore support` | Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services. | 19.05.36 ~ 19.47.53 |
-| `Hide Shorts dimming` | Removes, at compile time, the dimming effect at the top and bottom of Shorts videos. | 19.05.36 ~ 19.47.53 |
-| `Hide accessibility controls dialog` | Removes, at compile time, accessibility controls dialog 'Turn on accessibility controls for the video player?'. | 19.05.36 ~ 19.47.53 |
-| `Hide action buttons` | Adds options to hide action buttons under videos. | 19.05.36 ~ 19.47.53 |
-| `Hide ads` | Adds options to hide ads. | 19.05.36 ~ 19.47.53 |
-| `Hide comments components` | Adds options to hide components related to comments. | 19.05.36 ~ 19.47.53 |
-| `Hide feed components` | Adds options to hide components related to feeds. | 19.05.36 ~ 19.47.53 |
-| `Hide feed flyout menu` | Adds the ability to hide feed flyout menu components using a custom filter. | 19.05.36 ~ 19.47.53 |
-| `Hide layout components` | Adds options to hide general layout components. | 19.05.36 ~ 19.47.53 |
-| `Hide player buttons` | Adds options to hide buttons in the video player. | 19.05.36 ~ 19.47.53 |
-| `Hide player flyout menu` | Adds options to hide player flyout menu components. | 19.05.36 ~ 19.47.53 |
-| `Hide shortcuts` | Remove, at compile time, the app shortcuts that appears when the app icon is long pressed. | 19.05.36 ~ 19.47.53 |
-| `Hook YouTube Music actions` | Adds support for opening music in RVX Music using the in-app YouTube Music button. | 19.05.36 ~ 19.47.53 |
-| `Hook download actions` | Adds support to download videos with an external downloader app using the in-app download button. | 19.05.36 ~ 19.47.53 |
-| `MaterialYou` | Applies the MaterialYou theme for Android 12+ devices. | 19.05.36 ~ 19.47.53 |
-| `Miniplayer` | Adds options to change the in-app minimized player, and if patching target 19.16+ adds options to use modern miniplayers. | 19.05.36 ~ 19.47.53 |
-| `Navigation bar components` | Adds options to hide or change components related to the navigation bar. | 19.05.36 ~ 19.47.53 |
-| `Open links externally` | Adds an option to always open links in your browser instead of the in-app browser. | 19.05.36 ~ 19.47.53 |
-| `Overlay buttons` | Adds options to display useful overlay buttons in the video player. | 19.05.36 ~ 19.47.53 |
-| `Player components` | Adds options to hide or change components related to the video player. | 19.05.36 ~ 19.47.53 |
-| `Remove background playback restrictions` | Removes restrictions on background playback, including for music and kids videos. | 19.05.36 ~ 19.47.53 |
-| `Remove viewer discretion dialog` | Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction. | 19.05.36 ~ 19.47.53 |
-| `Return YouTube Dislike` | Adds an option to show the dislike count of videos using the Return YouTube Dislike API. | 19.05.36 ~ 19.47.53 |
-| `Return YouTube Username` | Adds an option to replace YouTube handles with usernames in comments using YouTube Data API v3. | 19.05.36 ~ 19.47.53 |
-| `Sanitize sharing links` | Adds an option to sanitize sharing links by removing tracking query parameters. | 19.05.36 ~ 19.47.53 |
-| `Seekbar components` | Adds options to hide or change components related to the seekbar. | 19.05.36 ~ 19.47.53 |
-| `Settings for YouTube` | Applies mandatory patches to implement ReVanced Extended settings into the application. | 19.05.36 ~ 19.47.53 |
-| `Shorts components` | Adds options to hide or change components related to YouTube Shorts. | 19.05.36 ~ 19.47.53 |
-| `Snack bar components` | Adds options to hide or change components related to the snack bar. | 19.05.36 ~ 19.47.53 |
-| `SponsorBlock` | Adds options to enable and configure SponsorBlock, which can skip undesired video segments, such as sponsored content. | 19.05.36 ~ 19.47.53 |
-| `Spoof app version` | Adds options to spoof the YouTube client version. This can be used to restore old UI elements and features. | 19.05.36 ~ 19.47.53 |
-| `Spoof streaming data` | Adds options to spoof the streaming data to allow playback. | 19.05.36 ~ 19.47.53 |
-| `Swipe controls` | Adds options for controlling volume and brightness with swiping, and whether to enter fullscreen when swiping down below the player. | 19.05.36 ~ 19.47.53 |
-| `Theme` | Changes the app's themes to the values specified in patch options. | 19.05.36 ~ 19.47.53 |
-| `Toolbar components` | Adds options to hide or change components located on the toolbar, such as the search bar, header, and toolbar buttons. | 19.05.36 ~ 19.47.53 |
-| `Translations for YouTube` | Add translations or remove string resources. | 19.05.36 ~ 19.47.53 |
-| `Video playback` | Adds options to customize settings related to video playback, such as default video quality and playback speed. | 19.05.36 ~ 19.47.53 |
-| `Visual preferences icons for YouTube` | Adds icons to specific preferences in the settings. | 19.05.36 ~ 19.47.53 |
-| `Watch history` | Adds an option to change the domain of the watch history or check its status. | 19.05.36 ~ 19.47.53 |
-</details>
+Morphe Patches are based off the prior work of [ReVanced](https://github.com/ReVanced/revanced-patches).
+All modifications made by Morphe, along with their dates, can be found in the Git history.
 
-### [📦 `com.google.android.apps.youtube.music`](https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.music)
-<details>
+&nbsp;
+## 📜 License
 
-| 💊 Patch | 📜 Description | 🏹 Target Version |
-|:--------:|:--------------:|:-----------------:|
-| `Bitrate default value` | Sets the audio quality to 'Always High' when you first install the app. | 6.20.51 ~ 8.12.53 |
-| `Bypass image region restrictions` | Adds an option to use a different host for static images, so that images blocked in some countries can be received. | 6.20.51 ~ 8.12.53 |
-| `Certificate spoof` | Enables YouTube Music to work with Android Auto by spoofing the YouTube Music certificate. | 6.20.51 ~ 8.12.53 |
-| `Change share sheet` | Adds an option to change the in-app share sheet to the system share sheet. | 6.20.51 ~ 8.12.53 |
-| `Change start page` | Adds an option to set which page the app opens in instead of the homepage. | 6.20.51 ~ 8.12.53 |
-| `Custom branding icon for YouTube Music` | Changes the YouTube Music app icon to the icon specified in patch options. | 6.20.51 ~ 8.12.53 |
-| `Custom branding name for YouTube Music` | Changes the YouTube Music app name to the name specified in patch options. | 6.20.51 ~ 8.12.53 |
-| `Custom header for YouTube Music` | Applies a custom header in the top left corner within the app. | 6.20.51 ~ 8.12.53 |
-| `Dark theme` | Changes the app's dark theme to the values specified in patch options. | 6.20.51 ~ 8.12.53 |
-| `Disable Cairo splash animation` | Adds an option to disable Cairo splash animation. | 7.06.54 ~ 8.12.53 |
-| `Disable DRC audio` | Adds an option to disable DRC (Dynamic Range Compression) audio. | 6.20.51 ~ 8.12.53 |
-| `Disable QUIC protocol` | Adds an option to disable CronetEngine's QUIC protocol. | 6.20.51 ~ 8.12.53 |
-| `Disable dislike redirection` | Adds an option to disable redirection to the next track when clicking the Dislike button. | 6.20.51 ~ 8.12.53 |
-| `Disable forced auto captions` | Adds an option to disable captions from being automatically enabled. | 6.20.51 ~ 8.12.53 |
-| `Disable music video in album` | Adds option to redirect music videos from albums for non-premium users. | 6.20.51 ~ 8.12.53 |
-| `Enable OPUS codec` | Adds an option to enable the OPUS audio codec if the player response includes it. | 6.20.51 ~ 8.12.53 |
-| `Enable debug logging` | Adds an option for debugging. | 6.20.51 ~ 8.12.53 |
-| `Enable landscape mode` | Adds an option to enable landscape mode when rotating the screen on phones. | 6.20.51 ~ 8.12.53 |
-| `Flyout menu components` | Adds options to hide or change flyout menu components. | 6.20.51 ~ 8.12.53 |
-| `GmsCore support` | Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services. | 6.20.51 ~ 8.12.53 |
-| `Hide account components` | Adds options to hide components related to the account menu. | 6.20.51 ~ 8.12.53 |
-| `Hide action bar components` | Adds options to hide action bar components and replace the offline download button with an external download button. | 6.20.51 ~ 8.12.53 |
-| `Hide ads` | Adds options to hide ads. | 6.20.51 ~ 8.12.53 |
-| `Hide layout components` | Adds options to hide general layout components. | 6.20.51 ~ 8.12.53 |
-| `Hide overlay filter` | Removes, at compile time, the dark overlay that appears when player flyout menus are open. | 6.20.51 ~ 8.12.53 |
-| `Hide player overlay filter` | Removes, at compile time, the dark overlay that appears when single-tapping in the player. | 6.20.51 ~ 8.12.53 |
-| `Navigation bar components` | Adds options to hide or change components related to the navigation bar. | 6.20.51 ~ 8.12.53 |
-| `Player components` | Adds options to hide or change components related to the player. | 6.20.51 ~ 8.12.53 |
-| `Remove background playback restrictions` | Removes restrictions on background playback, including for kids videos. | 6.20.51 ~ 8.12.53 |
-| `Remove viewer discretion dialog` | Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction. | 6.20.51 ~ 8.12.53 |
-| `Restore old style library shelf` | Adds an option to return the Library tab to the old style. | 6.20.51 ~ 8.12.53 |
-| `Return YouTube Dislike` | Adds an option to show the dislike count of songs using the Return YouTube Dislike API. | 6.20.51 ~ 8.12.53 |
-| `Return YouTube Username` | Adds an option to replace YouTube handles with usernames in comments using YouTube Data API v3. | 6.20.51 ~ 8.12.53 |
-| `Sanitize sharing links` | Adds an option to sanitize sharing links by removing tracking query parameters. | 6.20.51 ~ 8.12.53 |
-| `Settings for YouTube Music` | Applies mandatory patches to implement ReVanced Extended settings into the application. | 6.20.51 ~ 8.12.53 |
-| `SponsorBlock` | Adds options to enable and configure SponsorBlock, which can skip undesired video segments, such as non-music sections. | 6.20.51 ~ 8.12.53 |
-| `Spoof app version` | Adds options to spoof the YouTube Music client version. This can be used to restore old UI elements and features. | 6.51.53 ~ 8.12.53 |
-| `Spoof player parameter` | Adds options to spoof player parameter to allow playback. | 6.20.51 ~ 8.12.53 |
-| `Translations for YouTube Music` | Add translations or remove string resources. | 6.20.51 ~ 8.12.53 |
-| `Video playback` | Adds options to customize settings related to video playback, such as default video quality and playback speed. | 6.20.51 ~ 8.12.53 |
-| `Visual preferences icons for YouTube Music` | Adds icons to specific preferences in the settings. | 6.20.51 ~ 8.12.53 |
-| `Watch history` | Adds an option to change the domain of the watch history or check its status. | 6.20.51 ~ 8.12.53 |
-</details>
+Morphe Patches are licensed under the [GNU General Public License v3.0](LICENSE), with additional conditions under GPLv3 Section 7:
 
-### [📦 `com.reddit.frontpage`](https://play.google.com/store/apps/details?id=com.reddit.frontpage)
-<details>
+- **Attribution (7b):** Any use of this code, including derivatives, must display a visible notice:
 
-| 💊 Patch | 📜 Description | 🏹 Target Version |
-|:--------:|:--------------:|:-----------------:|
-| `Change package name` | Changes the package name for Reddit to the name specified in patch options. | 2024.17.0 ~ 2025.12.1 |
-| `Custom branding name for Reddit` | Changes the Reddit app name to the name specified in patch options. | 2024.17.0 ~ 2025.12.1 |
-| `Disable screenshot popup` | Adds an option to disable the popup that appears when taking a screenshot. | 2024.17.0 ~ 2025.12.1 |
-| `Hide Recently Visited shelf` | Adds an option to hide the Recently Visited shelf in the sidebar. | 2024.17.0 ~ 2025.12.1 |
-| `Hide ads` | Adds options to hide ads. | 2024.17.0 ~ 2025.12.1 |
-| `Hide navigation buttons` | Adds options to hide buttons in the navigation bar. | 2024.17.0 ~ 2025.12.1 |
-| `Hide recommended communities shelf` | Adds an option to hide the recommended communities shelves in subreddits. | 2024.17.0 ~ 2025.12.1 |
-| `Open links directly` | Adds an option to skip over redirection URLs in external links. | 2024.17.0 ~ 2025.12.1 |
-| `Open links externally` | Adds an option to always open links in your browser instead of in the in-app-browser. | 2024.17.0 ~ 2025.12.1 |
-| `Premium icon` | Unlocks premium app icons. | 2024.17.0 ~ 2025.12.1 |
-| `Remove subreddit dialog` | Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically. | 2024.17.0 ~ 2025.12.1 |
-| `Sanitize sharing links` | Adds an option to sanitize sharing links by removing tracking query parameters. | 2024.17.0 ~ 2025.12.1 |
-| `Settings for Reddit` | Applies mandatory patches to implement ReVanced Extended settings into the application. | 2024.17.0 ~ 2025.12.1 |
-</details>
+  > This app uses code from Morphe. To learn more, visit https://morphe.software
 
+- **Name Restriction (7c):** The name **"Morphe"** may not be used for derivative works.  
+  Derivatives must adopt a distinct identity unrelated to "Morphe."
 
-
-## 📝 JSON Format
-
-This section explains the JSON format for the [patches.json](patches.json) file.
-
-Example:
-
-```json
-[
-  {
-    "name": "Alternative thumbnails",
-    "description": "Adds options to replace video thumbnails using the DeArrow API or image captures from the video.",
-    "use":true,
-    "compatiblePackages": {
-      "com.google.android.youtube": [
-        "19.05.36",
-        "19.16.39",
-        "19.43.41",
-        "19.44.39",
-        "19.47.53"
-      ]
-    },
-    "options": []
-  },
-  {
-    "name": "Bitrate default value",
-    "description": "Sets the audio quality to 'Always High' when you first install the app.",
-    "use":true,
-    "compatiblePackages": {
-      "com.google.android.apps.youtube.music": [
-        "6.20.51",
-        "6.29.59",
-        "6.42.55",
-        "6.51.53",
-        "7.16.53",
-        "7.25.53",
-        "8.05.51",
-        "8.12.53"
-      ]
-    },
-    "options": []
-  },
-  {
-    "name": "Hide ads",
-    "description": "Adds options to hide ads.",
-    "use":true,
-    "compatiblePackages": {
-      "com.reddit.frontpage": [
-        "2024.17.0",
-        "2025.05.1",
-        "2025.12.1"
-      ]
-    },
-    "options": []
-  }
-]
-```
+See the [LICENSE](LICENSE) file for the full GPLv3 terms and the [NOTICE](NOTICE) file for full conditions of GPLv3 Section 7
